@@ -24,15 +24,15 @@ public class QueryResultBuilder {
     }
 
     public void addRow(String... cells) {
-        List<List<String>> row = new ArrayList<List<String>>();
-        for (int i = 0; i < columns.size(); i++) {
-            row.add(asList(columns.get(i), cells[i]));
-        }
-        result.add(row);
+      	addRow(asList(cells));
     }
 
     public void addRow(List<String> cells) {
-        addRow(cells.toArray(new String[cells.size()]));
+      List<List<String>> row = new ArrayList<List<String>>();
+      for (int i = 0; i < columns.size(); i++) {
+          row.add(asList(columns.get(i), cells.get(i)));
+      }
+      result.add(row);
     }
 
     public List<List<List<String>>> toQuery() {
