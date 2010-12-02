@@ -1,0 +1,4 @@
+= Fitnesse Tools
+
+QueryResultBuilder is a tool to help building the actual result of Fitnesse SLIM Fixtures of type Query Table.
+
