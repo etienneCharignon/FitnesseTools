@@ -10,7 +10,6 @@ import org.junit.Test;
 
 public class QueryResultBuilderTest {
 
-	@SuppressWarnings("unchecked")
 	@Test
 	public void toQuery() {
 		QueryResultBuilder qb = new QueryResultBuilder("col1", "col2");
