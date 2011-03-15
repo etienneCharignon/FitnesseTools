@@ -1,4 +1,4 @@
 = Fitnesse Tools
 
-QueryResultBuilder is a tool to help building the actual result of Fitnesse SLIM Fixtures of type Query Table.
-
+QueryResultBuilder to help building the actual result of Fitnesse SLIM Fixtures of type Query Table.
+ClasspathBuilder to help build the classpath from the output of the command mvn dependency:build-classpath 
