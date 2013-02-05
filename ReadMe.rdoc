@@ -6,3 +6,8 @@ FitnesseTest.java : Run fitnesse suite from jUnit.
 
 Obsolet (better use maven-fitnesse-cpgen-plugin): 
 ClasspathBuilder.java to help build the classpath from the output of the command mvn dependency:build-classpath. 
+
+PageContext.java : Help managing a page context, ie : a map of objects instances to be re-used from table to table that is cleared at the begining of each page. Add the following to your SetUp page : 
+|script|Page Context|
+|initialisation     |
+
