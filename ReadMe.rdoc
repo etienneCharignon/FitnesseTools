@@ -1,4 +1,4 @@
-= Fitnesse Tools
+= FitNesse Tools
 
 QueryResultBuilder.java to help building the actual result of Fitnesse SLIM Fixtures of type Query Table.
 
